@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>300</defaultcontrol>
+	<controls>
+		<control type="image">
+			<left>0</left><top>0</top><width>1280</width><height>720</height>
+			<texture colordiffuse="DD05070F">special://skin/media/solid.png</texture>
+		</control>
+		<control type="group">
+			<centerleft>50%</centerleft><centertop>50%</centertop>
+			<width>1000</width><height>560</height>
+			<control type="image">
+				<left>0</left><top>0</top><right>0</right><bottom>0</bottom>
+				<texture colordiffuse="panel_fill_dark">special://skin/media/panel_dark.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>0</left><top>0</top><right>0</right><height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="label" id="311">
+				<left>30</left><top>14</top><width>700</width><height>34</height>
+				<label></label>
+				<font>font_title</font><textcolor>text_primary</textcolor>
+			</control>
+			<control type="edit" id="312">
+				<left>30</left><top>56</top><right>30</right><height>50</height>
+				<font>font_large</font><textcolor>text_primary</textcolor>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/panel.png</texturefocus>
+				<texturenofocus colordiffuse="panel_fill">special://skin/media/panel.png</texturenofocus>
+			</control>
+			<control type="group" id="78500">
+				<control type="button" id="100">
+					<description>(0,0) key button</description>
+					<left>150</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="101">
+					<description>(0,1) key button</description>
+					<left>212</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="102">
+					<description>(0,2) key button</description>
+					<left>274</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="103">
+					<description>(0,3) key button</description>
+					<left>336</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="104">
+					<description>(0,4) key button</description>
+					<left>398</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="105">
+					<description>(0,5) key button</description>
+					<left>460</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="106">
+					<description>(0,6) key button</description>
+					<left>522</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="107">
+					<description>(0,7) key button</description>
+					<left>584</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="108">
+					<description>(0,8) key button</description>
+					<left>646</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="109">
+					<description>(0,9) key button</description>
+					<left>708</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="110">
+					<description>(0,10) key button</description>
+					<left>770</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="111">
+					<description>(0,11) key button</description>
+					<left>832</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="112">
+					<description>(0,12) key button</description>
+					<left>894</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="113">
+					<description>(0,13) key button</description>
+					<left>956</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="114">
+					<description>(0,14) key button</description>
+					<left>1018</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="115">
+					<description>(0,15) key button</description>
+					<left>1080</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="116">
+					<description>(0,16) key button</description>
+					<left>1142</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="117">
+					<description>(0,17) key button</description>
+					<left>1204</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="118">
+					<description>(0,18) key button</description>
+					<left>1266</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="119">
+					<description>(0,19) key button</description>
+					<left>1328</left><top>210</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="120">
+					<description>(1,0) key button</description>
+					<left>150</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="121">
+					<description>(1,1) key button</description>
+					<left>212</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="122">
+					<description>(1,2) key button</description>
+					<left>274</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="123">
+					<description>(1,3) key button</description>
+					<left>336</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="124">
+					<description>(1,4) key button</description>
+					<left>398</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="125">
+					<description>(1,5) key button</description>
+					<left>460</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="126">
+					<description>(1,6) key button</description>
+					<left>522</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="127">
+					<description>(1,7) key button</description>
+					<left>584</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="128">
+					<description>(1,8) key button</description>
+					<left>646</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="129">
+					<description>(1,9) key button</description>
+					<left>708</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="130">
+					<description>(1,10) key button</description>
+					<left>770</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="131">
+					<description>(1,11) key button</description>
+					<left>832</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="132">
+					<description>(1,12) key button</description>
+					<left>894</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="133">
+					<description>(1,13) key button</description>
+					<left>956</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="134">
+					<description>(1,14) key button</description>
+					<left>1018</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="135">
+					<description>(1,15) key button</description>
+					<left>1080</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="136">
+					<description>(1,16) key button</description>
+					<left>1142</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="137">
+					<description>(1,17) key button</description>
+					<left>1204</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="138">
+					<description>(1,18) key button</description>
+					<left>1266</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="139">
+					<description>(1,19) key button</description>
+					<left>1328</left><top>264</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="140">
+					<description>(2,0) key button</description>
+					<left>150</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="141">
+					<description>(2,1) key button</description>
+					<left>212</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="142">
+					<description>(2,2) key button</description>
+					<left>274</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="143">
+					<description>(2,3) key button</description>
+					<left>336</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="144">
+					<description>(2,4) key button</description>
+					<left>398</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="145">
+					<description>(2,5) key button</description>
+					<left>460</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="146">
+					<description>(2,6) key button</description>
+					<left>522</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="147">
+					<description>(2,7) key button</description>
+					<left>584</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="148">
+					<description>(2,8) key button</description>
+					<left>646</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="149">
+					<description>(2,9) key button</description>
+					<left>708</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="150">
+					<description>(2,10) key button</description>
+					<left>770</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="151">
+					<description>(2,11) key button</description>
+					<left>832</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="152">
+					<description>(2,12) key button</description>
+					<left>894</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="153">
+					<description>(2,13) key button</description>
+					<left>956</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="154">
+					<description>(2,14) key button</description>
+					<left>1018</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="155">
+					<description>(2,15) key button</description>
+					<left>1080</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="156">
+					<description>(2,16) key button</description>
+					<left>1142</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="157">
+					<description>(2,17) key button</description>
+					<left>1204</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="158">
+					<description>(2,18) key button</description>
+					<left>1266</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="159">
+					<description>(2,19) key button</description>
+					<left>1328</left><top>318</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="160">
+					<description>(3,0) key button</description>
+					<left>150</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="161">
+					<description>(3,1) key button</description>
+					<left>212</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="162">
+					<description>(3,2) key button</description>
+					<left>274</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="163">
+					<description>(3,3) key button</description>
+					<left>336</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="164">
+					<description>(3,4) key button</description>
+					<left>398</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="165">
+					<description>(3,5) key button</description>
+					<left>460</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="166">
+					<description>(3,6) key button</description>
+					<left>522</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="167">
+					<description>(3,7) key button</description>
+					<left>584</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="168">
+					<description>(3,8) key button</description>
+					<left>646</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="169">
+					<description>(3,9) key button</description>
+					<left>708</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="170">
+					<description>(3,10) key button</description>
+					<left>770</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="171">
+					<description>(3,11) key button</description>
+					<left>832</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="172">
+					<description>(3,12) key button</description>
+					<left>894</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="173">
+					<description>(3,13) key button</description>
+					<left>956</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="174">
+					<description>(3,14) key button</description>
+					<left>1018</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="175">
+					<description>(3,15) key button</description>
+					<left>1080</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="176">
+					<description>(3,16) key button</description>
+					<left>1142</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="177">
+					<description>(3,17) key button</description>
+					<left>1204</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="178">
+					<description>(3,18) key button</description>
+					<left>1266</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="179">
+					<description>(3,19) key button</description>
+					<left>1328</left><top>372</top>
+					<width>56</width><height>48</height>
+					<font>font_large</font><aligny>center</aligny><align>center</align>
+					<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+			</control>
+			<control type="button" id="8">
+				<left>150</left><top>434</top><width>56</width><height>48</height>
+				<label>Backspace</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="32">
+				<left>212</left><top>434</top><width>86</width><height>48</height>
+				<label>Space</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="302">
+				<left>274</left><top>488</top><width>56</width><height>48</height>
+				<label>Shift</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="304">
+				<left>336</left><top>488</top><width>56</width><height>48</height>
+				<label>Symbols</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="308">
+				<left>398</left><top>488</top><width>56</width><height>48</height>
+				<label>Clear</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="309">
+				<left>460</left><top>488</top><width>56</width><height>48</height>
+				<label>Layout</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="300">
+				<left>522</left><top>488</top><width>56</width><height>48</height>
+				<label>Done</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="301">
+				<left>584</left><top>488</top><width>56</width><height>48</height>
+				<label>Cancel</label>
+				<font>font_medium</font><aligny>center</aligny><align>center</align>
+				<textcolor>text_primary</textcolor><textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+		</control>
+	</controls>
+</window>

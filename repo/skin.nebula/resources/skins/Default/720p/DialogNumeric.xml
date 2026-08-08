@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>21</defaultcontrol>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture colordiffuse="DD05070F">special://skin/media/solid.png</texture>
+		</control>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>620</width>
+			<height>360</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="panel_fill_dark">special://skin/media/panel_dark.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="label" id="1">
+				<left>30</left>
+				<top>16</top>
+				<width>560</width>
+				<height>36</height>
+				<label></label>
+				<font>font_title</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="label" id="4">
+				<left>30</left>
+				<top>70</top>
+				<width>560</width>
+				<height>40</height>
+				<label></label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<align>center</align>
+			</control>
+			<control type="group">
+				<left>30</left>
+				<top>130</top>
+				<width>560</width>
+				<height>170</height>
+				<control type="button" id="23">
+					<left>20</left>
+					<top>0</top>
+					<width>120</width>
+					<height>50</height>
+					<label>$LOCALIZE[166]</label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="10">
+					<left>160</left>
+					<top>0</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="11">
+					<left>300</left>
+					<top>0</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="12">
+					<left>440</left>
+					<top>0</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="13">
+					<left>20</left>
+					<top>60</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="14">
+					<left>160</left>
+					<top>60</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="15">
+					<left>300</left>
+					<top>60</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="16">
+					<left>440</left>
+					<top>60</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="17">
+					<left>20</left>
+					<top>120</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="18">
+					<left>160</left>
+					<top>120</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="19">
+					<left>300</left>
+					<top>120</top>
+					<width>120</width>
+					<height>50</height>
+					<label></label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+				<control type="button" id="21">
+					<left>440</left>
+					<top>120</top>
+					<width>120</width>
+					<height>50</height>
+					<label>$LOCALIZE[186]</label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+					<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

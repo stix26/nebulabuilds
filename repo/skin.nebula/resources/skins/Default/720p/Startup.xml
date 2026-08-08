@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture background="true">special://skin/media/fanart.png</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture>special://skin/media/vignette.png</texture>
+		</control>
+		<control type="image">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>180</width>
+			<height>180</height>
+			<texture>special://skin/media/logo.png</texture>
+		</control>
+		<control type="label">
+			<centerleft>50%</centerleft>
+			<top>50%</top>
+			<width>400</width>
+			<height>60</height>
+			<label>NEBULA</label>
+			<font>font_display</font>
+			<textcolor>text_primary</textcolor>
+			<align>center</align>
+		</control>
+		<control type="label">
+			<centerleft>50%</centerleft>
+			<top>50%</top>
+			<width>400</width>
+			<height>30</height>
+			<label>Starting ...</label>
+			<font>font_medium</font>
+			<textcolor>text_secondary</textcolor>
+			<align>center</align>
+		</control>
+	</controls>
+</window>

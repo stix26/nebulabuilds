@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorset>
+	<name>Ocean</name>
+	<colors>
+		<color name="accent">FF22B8CF</color>
+		<color name="accent2">FF38D9A9</color>
+		<color name="accent_dim">8C22B8CF</color>
+		<color name="text_primary">FFFFFFFF</color>
+		<color name="text_secondary">FF9AC6CE</color>
+		<color name="text_header">FFB5EBF2</color>
+		<color name="panel_fill">99102630</color>
+		<color name="panel_fill_dark">CC06141A</color>
+		<color name="panel_border">6622B8CF</color>
+		<color name="highlight">80FFFFFF</color>
+		<color name="focus_bar">FF9CE8F2</color>
+		<color name="focus_glow">FF22B8CF</color>
+		<color name="button_focus">FF22B8CF</color>
+		<color name="button_nofocus">FF8A94AD</color>
+		<color name="header_fill">CC06141A</color>
+		<color name="scrollbar">CC22B8CF</color>
+		<color name="scrollbarbg">22000000</color>
+	</colors>
+</colorset>

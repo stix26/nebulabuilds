@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorset>
+	<name>Crimson</name>
+	<colors>
+		<color name="accent">FFE03131</color>
+		<color name="accent2">FFFF6B6B</color>
+		<color name="accent_dim">8CE03131</color>
+		<color name="text_primary">FFFFFFFF</color>
+		<color name="text_secondary">FFC9A0A0</color>
+		<color name="text_header">FFFFB0B0</color>
+		<color name="panel_fill">992E1313</color>
+		<color name="panel_fill_dark">CC140606</color>
+		<color name="panel_border">66E03131</color>
+		<color name="highlight">80FFFFFF</color>
+		<color name="focus_bar">FFFFA0A0</color>
+		<color name="focus_glow">FFE03131</color>
+		<color name="button_focus">FFE03131</color>
+		<color name="button_nofocus">FF8A94AD</color>
+		<color name="header_fill">CC140606</color>
+		<color name="scrollbar">CCE03131</color>
+		<color name="scrollbarbg">22000000</color>
+	</colors>
+</colorset>

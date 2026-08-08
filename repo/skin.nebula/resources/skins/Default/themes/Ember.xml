@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorset>
+	<name>Ember</name>
+	<colors>
+		<color name="accent">FFF59F00</color>
+		<color name="accent2">FFFF922B</color>
+		<color name="accent_dim">8CF59F00</color>
+		<color name="text_primary">FFFFFFFF</color>
+		<color name="text_secondary">FFCEAE84</color>
+		<color name="text_header">FFFFE0B3</color>
+		<color name="panel_fill">99302410</color>
+		<color name="panel_fill_dark">CC180F05</color>
+		<color name="panel_border">66F59F00</color>
+		<color name="highlight">80FFFFFF</color>
+		<color name="focus_bar">FFFFD9A0</color>
+		<color name="focus_glow">FFF59F00</color>
+		<color name="button_focus">FFF59F00</color>
+		<color name="button_nofocus">FF8A94AD</color>
+		<color name="header_fill">CC180F05</color>
+		<color name="scrollbar">CCF59F00</color>
+		<color name="scrollbarbg">22000000</color>
+	</colors>
+</colorset>

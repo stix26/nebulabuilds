@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>50</defaultcontrol>
+	<controls>
+		<include>FullscreenWallpaper</include>
+
+		<control type="group">
+			<left>90</left>
+			<top>140</top>
+			<width>380</width>
+			<height>500</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="panel_fill_dark">special://skin/media/panel_dark.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="list" id="50">
+				<left>10</left>
+				<top>14</top>
+				<width>360</width>
+				<height>470</height>
+				<onup>50</onup>
+				<ondown>50</ondown>
+				<itemlayout>
+					<control type="label">
+						<left>24</left>
+						<top>0</top>
+						<width>320</width>
+						<height>46</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_xlarge</font>
+						<textcolor>text_secondary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</itemlayout>
+				<focusedlayout>
+					<include>FocusHighlight</include>
+					<control type="label">
+						<left>40</left>
+						<top>0</top>
+						<width>310</width>
+						<height>46</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_xlarge</font>
+						<textcolor>text_primary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</focusedlayout>
+				<item>
+					<label>Movies</label>
+					<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
+				</item>
+				<item>
+					<label>TV Shows</label>
+					<onclick>ActivateWindow(Videos,TvShowTitles,return)</onclick>
+				</item>
+				<item>
+					<label>Music</label>
+					<onclick>ActivateWindow(Music,return)</onclick>
+				</item>
+				<item>
+					<label>Pictures</label>
+					<onclick>ActivateWindow(Pictures,return)</onclick>
+				</item>
+				<item>
+					<label>Programs</label>
+					<onclick>ActivateWindow(Programs,return)</onclick>
+				</item>
+				<item>
+					<label>Add-ons</label>
+					<onclick>ActivateWindow(AddonBrowser,return)</onclick>
+				</item>
+				<item>
+					<label>Favourites</label>
+					<onclick>ActivateWindow(Favourites,return)</onclick>
+				</item>
+				<item>
+					<label>Settings</label>
+					<onclick>ActivateWindow(Settings,return)</onclick>
+				</item>
+				<item>
+					<label>Nebula Wizard</label>
+					<onclick>ActivateWindow(10001,"plugin://plugin.program.nebulawizard/",return)</onclick>
+				</item>
+				<item>
+					<label>Power</label>
+					<onclick>ActivateWindow(15001)</onclick>
+				</item>
+			</control>
+		</control>
+
+		<control type="group">
+			<left>760</left>
+			<top>150</top>
+			<width>430</width>
+			<height>470</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<width>160</width>
+				<height>160</height>
+				<texture>special://skin/media/logo.png</texture>
+			</control>
+			<control type="label">
+				<left>0</left>
+				<top>190</top>
+				<width>430</width>
+				<height>72</height>
+				<label>NEBULA</label>
+				<font>font_display</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="label">
+				<left>4</left>
+				<top>268</top>
+				<width>430</width>
+				<height>26</height>
+				<label>KODI BUILDS</label>
+				<font>font_medium_bold</font>
+				<textcolor>accent</textcolor>
+			</control>
+			<control type="label">
+				<left>0</left>
+				<top>340</top>
+				<width>430</width>
+				<height>80</height>
+				<label>$INFO[System.Time]</label>
+				<font>font_clock</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="label">
+				<left>4</left>
+				<top>420</top>
+				<width>430</width>
+				<height>26</height>
+				<label>$INFO[Weather.Current.Condition]  $INFO[Weather.Current.Temperature]</label>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+			</control>
+			<control type="label">
+				<left>4</left>
+				<top>448</top>
+				<width>430</width>
+				<height>24</height>
+				<label>$INFO[System.Date]</label>
+				<font>font_small</font>
+				<textcolor>text_secondary</textcolor>
+			</control>
+		</control>
+
+		<control type="label">
+			<left>40</left>
+			<bottom>20</bottom>
+			<width>700</width>
+			<height>30</height>
+			<label>Nebula $INFO[System.BuildVersion]</label>
+			<font>font_small</font>
+			<textcolor>text_secondary</textcolor>
+		</control>
+		<control type="label">
+			<right>40</right>
+			<bottom>20</bottom>
+			<width>300</width>
+			<height>30</height>
+			<label>Press Info for options</label>
+			<font>font_small</font>
+			<textcolor>text_secondary</textcolor>
+			<align>right</align>
+		</control>
+	</controls>
+</window>

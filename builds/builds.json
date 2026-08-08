@@ -1,34 +1,22 @@
 {
   "builds": [
     {
-      "id": "core",
       "name": "Nebula Core",
-      "file": "Nebula-Core-1.0.0.zip",
-      "version": "1.0.0",
-      "theme": "Midnight",
+      "version": "1.0.1",
+      "url": "https://nebulabuilds.vercel.app/builds/Nebula-Core-1.0.1.zip",
+      "icon": "https://nebulabuilds.vercel.app/builds/icon.png",
+      "fanart": "https://nebulabuilds.vercel.app/builds/fanart.jpg",
       "description": "Nebula skin, wizard and repository. A clean starting point for Kodi 20-22.",
-      "addons": [
-        "repository.nebulabuilds",
-        "skin.nebula",
-        "plugin.program.nebulawizard"
-      ],
-      "sha256": "ea0188a5b1848bd4a2576fb279088706e89604a35eab74698cae578a49a8e96a",
-      "size": 1592115
+      "theme": "Midnight"
     },
     {
-      "id": "cinema",
       "name": "Nebula Cinema",
-      "file": "Nebula-Cinema-1.0.0.zip",
-      "version": "1.0.0",
-      "theme": "Crimson",
+      "version": "1.0.1",
+      "url": "https://nebulabuilds.vercel.app/builds/Nebula-Cinema-1.0.1.zip",
+      "icon": "https://nebulabuilds.vercel.app/builds/icon.png",
+      "fanart": "https://nebulabuilds.vercel.app/builds/fanart.jpg",
       "description": "Nebula Core plus the Crimson theme and movie-centric layout defaults.",
-      "addons": [
-        "repository.nebulabuilds",
-        "skin.nebula",
-        "plugin.program.nebulawizard"
-      ],
-      "sha256": "c66dc9769eb09d5aed8b6a6ddb8ac05cef946fa8673d235cc8e399ceab87e030",
-      "size": 1592110
+      "theme": "Crimson"
     }
   ]
 }

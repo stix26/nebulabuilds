@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>520</width>
+			<height>64</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="EE0A1020">special://skin/media/panel_dark.png</texture>
+				<border>10</border>
+			</control>
+			<control type="label">
+				<left>20</left>
+				<top>8</top>
+				<width>120</width>
+				<height>26</height>
+				<label>Volume</label>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+			</control>
+			<control type="label">
+				<right>20</right>
+				<top>8</top>
+				<width>120</width>
+				<height>26</height>
+				<label>$INFO[Player.Volume]%</label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<align>right</align>
+			</control>
+			<control type="progress" id="29999">
+				<left>20</left>
+				<bottom>12</bottom>
+				<right>20</right>
+				<height>8</height>
+				<texturebg colordiffuse="scrollbarbg">special://skin/media/solid.png</texturebg>
+				<lefttexture colordiffuse="accent">special://skin/media/solid.png</lefttexture>
+				<midtexture colordiffuse="accent">special://skin/media/solid.png</midtexture>
+				<righttexture colordiffuse="accent">special://skin/media/solid.png</righttexture>
+			</control>
+		</control>
+	</controls>
+</window>

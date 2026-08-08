@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>860</width>
+			<height>90</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="EE0A1020">special://skin/media/panel_dark.png</texture>
+				<border>12</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="label" id="40000">
+				<left>30</left>
+				<top>16</top>
+				<width>220</width>
+				<height>30</height>
+				<label>$INFO[Player.Time]</label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="label">
+				<right>30</right>
+				<top>16</top>
+				<width>220</width>
+				<height>30</height>
+				<label>$INFO[Player.Duration]</label>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+				<align>right</align>
+			</control>
+			<control type="slider" id="401">
+				<left>30</left>
+				<bottom>18</bottom>
+				<right>30</right>
+				<height>10</height>
+				<texturebg colordiffuse="scrollbarbg">special://skin/media/solid.png</texturebg>
+				<lefttexture colordiffuse="accent">special://skin/media/solid.png</lefttexture>
+				<midtexture colordiffuse="accent">special://skin/media/solid.png</midtexture>
+				<righttexture colordiffuse="accent">special://skin/media/solid.png</righttexture>
+			</control>
+			<control type="slider" id="403">
+				<left>30</left>
+				<bottom>18</bottom>
+				<right>30</right>
+				<height>10</height>
+				<texturebg colordiffuse="00000000">special://skin/media/solid.png</texturebg>
+				<lefttexture colordiffuse="accent_dim">special://skin/media/solid.png</lefttexture>
+				<midtexture colordiffuse="accent_dim">special://skin/media/solid.png</midtexture>
+				<righttexture colordiffuse="accent_dim">special://skin/media/solid.png</righttexture>
+			</control>
+		</control>
+	</controls>
+</window>

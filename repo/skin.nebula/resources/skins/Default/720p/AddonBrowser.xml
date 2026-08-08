@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">50</defaultcontrol>
+	<controls>
+		<include>FullscreenWallpaper</include>
+		<include content="HeaderBar">
+			<param name="title" value="Add-ons" />
+		</include>
+		<include>BackHint</include>
+
+		<control type="grouplist" id="9000">
+			<left>70</left>
+			<top>120</top>
+			<width>1140</width>
+			<height>54</height>
+			<orientation>horizontal</orientation>
+			<itemgap>8</itemgap>
+			<onleft>50</onleft>
+			<onright>50</onright>
+			<ondown>50</ondown>
+			<control type="label" id="201">
+				<width>220</width>
+				<height>54</height>
+				<label>$LOCALIZE[31021]</label>
+				<font>font_large</font>
+				<textcolor>text_secondary</textcolor>
+				<aligny>center</aligny>
+			</control>
+			<control type="radiobutton" id="7">
+				<width>220</width>
+				<height>54</height>
+				<label>$LOCALIZE[25001]</label>
+				<font>font_large</font>
+				<textcolor>text_secondary</textcolor>
+				<textcolorfocus>text_primary</textcolorfocus>
+				<aligny>center</aligny>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+				<texturenofocus />
+				<radioposx>20</radioposx>
+				<radiowidth>26</radiowidth>
+				<radioheight>26</radioheight>
+				<textureradioonfocus>special://skin/media/button_focus.png</textureradioonfocus>
+				<textureradioonnofocus>special://skin/media/button_focus.png</textureradioonnofocus>
+				<textureradioofffocus>special://skin/media/button_nofocus.png</textureradioofffocus>
+				<textureradiooffnofocus>special://skin/media/button_nofocus.png</textureradiooffnofocus>
+			</control>
+			<control type="radiobutton" id="8">
+				<width>240</width>
+				<height>54</height>
+				<label>$LOCALIZE[24999]</label>
+				<font>font_large</font>
+				<textcolor>text_secondary</textcolor>
+				<textcolorfocus>text_primary</textcolorfocus>
+				<aligny>center</aligny>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+				<texturenofocus />
+				<radioposx>20</radioposx>
+				<radiowidth>26</radiowidth>
+				<radioheight>26</radioheight>
+				<textureradioonfocus>special://skin/media/button_focus.png</textureradioonfocus>
+				<textureradioonnofocus>special://skin/media/button_focus.png</textureradioonnofocus>
+				<textureradioofffocus>special://skin/media/button_nofocus.png</textureradioofffocus>
+				<textureradiooffnofocus>special://skin/media/button_nofocus.png</textureradiooffnofocus>
+			</control>
+			<control type="button" id="9">
+				<width>280</width>
+				<height>54</height>
+				<label>$LOCALIZE[24034]</label>
+				<font>font_large</font>
+				<textcolor>text_secondary</textcolor>
+				<textcolorfocus>text_primary</textcolorfocus>
+				<aligny>center</aligny>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+				<texturenofocus />
+			</control>
+			<control type="button" id="5">
+				<width>180</width>
+				<height>54</height>
+				<label></label>
+				<font>font_large</font>
+				<textcolor>text_secondary</textcolor>
+				<textcolorfocus>text_primary</textcolorfocus>
+				<aligny>center</aligny>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+				<texturenofocus />
+			</control>
+		</control>
+
+		<control type="list" id="50">
+			<left>70</left>
+			<top>190</top>
+			<width>1140</width>
+			<height>420</height>
+			<pagecontrol>60</pagecontrol>
+			<onup>9000</onup>
+			<ondown>50</ondown>
+			<onleft>50</onleft>
+			<onright>60</onright>
+			<itemlayout>
+				<control type="image">
+					<left>10</left>
+					<top>6</top>
+					<width>56</width>
+					<height>56</height>
+					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<fallback>special://skin/media/logo.png</fallback>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="label">
+					<left>84</left>
+					<top>0</top>
+					<width>860</width>
+					<height>34</height>
+					<label>$INFO[ListItem.Label]</label>
+					<font>font_medium</font>
+					<textcolor>text_secondary</textcolor>
+					<aligny>center</aligny>
+				</control>
+				<control type="label">
+					<left>84</left>
+					<top>30</top>
+					<width>860</width>
+					<height>28</height>
+					<label>$INFO[ListItem.AddonStatus]  $INFO[ListItem.AddonVersion]</label>
+					<font>font_small</font>
+					<textcolor>text_secondary</textcolor>
+				</control>
+				<control type="label">
+					<right>20</right>
+					<top>0</top>
+					<width>180</width>
+					<height>64</height>
+					<label>$INFO[ListItem.Artist]</label>
+					<font>font_small</font>
+					<textcolor>text_secondary</textcolor>
+					<align>right</align>
+					<aligny>center</aligny>
+				</control>
+			</itemlayout>
+			<focusedlayout>
+				<control type="image">
+					<left>0</left>
+					<top>3</top>
+					<right>10</right>
+					<bottom>3</bottom>
+					<texture colordiffuse="accent_dim">special://skin/media/focus.png</texture>
+				</control>
+				<control type="image">
+					<left>10</left>
+					<top>6</top>
+					<width>56</width>
+					<height>56</height>
+					<texture background="true">$INFO[ListItem.Icon]</texture>
+					<fallback>special://skin/media/logo.png</fallback>
+					<aspectratio>keep</aspectratio>
+				</control>
+				<control type="label">
+					<left>84</left>
+					<top>0</top>
+					<width>860</width>
+					<height>34</height>
+					<label>$INFO[ListItem.Label]</label>
+					<font>font_medium</font>
+					<textcolor>text_primary</textcolor>
+					<aligny>center</aligny>
+				</control>
+				<control type="label">
+					<left>84</left>
+					<top>30</top>
+					<width>860</width>
+					<height>28</height>
+					<label>$INFO[ListItem.AddonStatus]  $INFO[ListItem.AddonVersion]</label>
+					<font>font_small</font>
+					<textcolor>text_secondary</textcolor>
+				</control>
+			</focusedlayout>
+		</control>
+
+		<include>ContentScrollbar</include>
+	</controls>
+</window>

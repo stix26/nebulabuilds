@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>3</defaultcontrol>
+	<controls>
+		<include>FullscreenWallpaper</include>
+
+		<control type="group">
+			<include>OpenClose_Left</include>
+			<control type="grouplist" id="3">
+				<description>button area</description>
+				<left>60</left>
+				<top>120</top>
+				<width>470</width>
+				<height>480</height>
+				<itemgap>6</itemgap>
+				<usecontrolcoords>true</usecontrolcoords>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+			</control>
+			<control type="button" id="10">
+				<description>Default Category Button</description>
+				<left>60</left>
+				<top>0</top>
+				<height>54</height>
+				<width>470</width>
+				<textoffsetx>28</textoffsetx>
+				<aligny>center</aligny>
+				<font>font_large</font>
+				<textcolor>text_secondary</textcolor>
+				<textcolorfocus>text_primary</textcolorfocus>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+				<texturenofocus />
+			</control>
+		</control>
+
+		<control type="group">
+			<control type="grouplist" id="5">
+				<description>control area</description>
+				<left>580</left>
+				<top>120</top>
+				<right>50</right>
+				<bottom>120</bottom>
+				<itemgap>8</itemgap>
+				<pagecontrol>60</pagecontrol>
+				<onleft>3</onleft>
+				<onright>60</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
+			</control>
+		</control>
+
+		<control type="button" id="7">
+			<description>Default Button</description>
+			<height>54</height>
+			<width>700</width>
+			<textoffsetx>20</textoffsetx>
+			<aligny>center</aligny>
+			<font>font_medium</font>
+			<textcolor>text_primary</textcolor>
+			<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+			<texturenofocus />
+		</control>
+		<control type="radiobutton" id="8">
+			<description>Default RadioButton</description>
+			<height>54</height>
+			<width>700</width>
+			<textoffsetx>20</textoffsetx>
+			<aligny>center</aligny>
+			<font>font_medium</font>
+			<textcolor>text_primary</textcolor>
+			<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+			<texturenofocus />
+			<radioposx>640</radioposx>
+			<radiowidth>40</radiowidth>
+			<radioheight>40</radioheight>
+			<textureradioonfocus>special://skin/media/button_focus.png</textureradioonfocus>
+			<textureradioonnofocus>special://skin/media/button_nofocus.png</textureradioonnofocus>
+			<textureradioofffocus>special://skin/media/button_focus.png</textureradioofffocus>
+			<textureradiooffnofocus>special://skin/media/button_nofocus.png</textureradiooffnofocus>
+		</control>
+		<control type="spincontrolex" id="9">
+			<description>Default SpinControlex</description>
+			<height>54</height>
+			<width>700</width>
+			<textoffsetx>20</textoffsetx>
+			<aligny>center</aligny>
+			<font>font_medium</font>
+			<textcolor>text_primary</textcolor>
+			<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+			<texturenofocus />
+		</control>
+		<control type="sliderex" id="13">
+			<description>Default Slider</description>
+			<height>54</height>
+			<width>700</width>
+			<textoffsetx>20</textoffsetx>
+			<aligny>center</aligny>
+			<font>font_medium</font>
+			<textcolor>text_primary</textcolor>
+			<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+			<texturenofocus />
+		</control>
+		<control type="colorbutton" id="15">
+			<description>Default ColorButton</description>
+			<height>54</height>
+			<width>700</width>
+			<textoffsetx>20</textoffsetx>
+			<aligny>center</aligny>
+			<font>font_medium</font>
+			<textcolor>text_primary</textcolor>
+			<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+			<texturenofocus />
+		</control>
+		<control type="image" id="11">
+			<description>separator image</description>
+			<height>3</height>
+			<texture colordiffuse="panel_border">special://skin/media/solid.png</texture>
+		</control>
+		<control type="label" id="14">
+			<description>Default Label</description>
+			<left>600</left>
+			<top>0</top>
+			<width>630</width>
+			<height>50</height>
+			<label></label>
+			<font>font_medium</font>
+			<textcolor>text_secondary</textcolor>
+			<aligny>center</aligny>
+		</control>
+
+		<control type="group">
+			<right>10</right>
+			<top>120</top>
+			<bottom>130</bottom>
+			<width>50</width>
+			<control type="scrollbar" id="60">
+				<right>0</right>
+				<top>0</top>
+				<bottom>0</bottom>
+				<width>12</width>
+				<orientation>vertical</orientation>
+				<texturesliderbackground>special://skin/media/solid.png</texturesliderbackground>
+				<texturesliderbar colordiffuse="accent">special://skin/media/solid.png</texturesliderbar>
+				<onleft>5</onleft>
+				<onright>5</onright>
+			</control>
+		</control>
+
+		<control type="group">
+			<control type="textbox" id="6">
+				<description>description area</description>
+				<left>580</left>
+				<bottom>40</bottom>
+				<right>60</right>
+				<height>60</height>
+				<font>font_small</font>
+				<align>justify</align>
+				<textcolor>text_secondary</textcolor>
+			</control>
+		</control>
+
+		<include content="HeaderBar">
+			<param name="title" value="$LOCALIZE[5]$INFO[Control.GetLabel(2), / ]" />
+		</include>
+		<include>BackHint</include>
+
+		<control type="group">
+			<control type="radiobutton" id="20">
+				<description>Settings Level</description>
+				<left>60</left>
+				<bottom>80</bottom>
+				<width>470</width>
+				<height>54</height>
+				<aligny>center</aligny>
+				<onclick>SettingsLevelChange</onclick>
+				<label>Level</label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<textoffsetx>100</textoffsetx>
+				<texturefocus colordiffuse="accent_dim">special://skin/media/focus.png</texturefocus>
+				<texturenofocus />
+				<radioposx>40</radioposx>
+				<radioposy>0</radioposy>
+				<radiowidth>40</radiowidth>
+				<radioheight>40</radioheight>
+				<onleft>5</onleft>
+				<onright>5</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<textureradioonfocus>special://skin/media/button_focus.png</textureradioonfocus>
+				<textureradioonnofocus>special://skin/media/button_nofocus.png</textureradioonnofocus>
+				<textureradioofffocus>special://skin/media/button_focus.png</textureradioofffocus>
+				<textureradiooffnofocus>special://skin/media/button_nofocus.png</textureradiooffnofocus>
+			</control>
+		</control>
+
+		<control type="label" id="2">
+			<description>breadcrumbs label</description>
+			<visible>False</visible>
+		</control>
+	</controls>
+</window>

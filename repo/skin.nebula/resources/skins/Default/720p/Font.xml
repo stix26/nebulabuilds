@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fonts>
+	<fontset id="Default" unicode="true">
+		<font>
+			<name>font_small</name>
+			<filename>fonts/NotoSans-Regular.ttf</filename>
+			<size>14</size>
+		</font>
+		<font>
+			<name>font_medium</name>
+			<filename>fonts/NotoSans-Regular.ttf</filename>
+			<size>17</size>
+		</font>
+		<font>
+			<name>font_medium_bold</name>
+			<filename>fonts/NotoSans-Regular.ttf</filename>
+			<size>18</size>
+		</font>
+		<font>
+			<name>font_large</name>
+			<filename>fonts/NotoSans-Regular.ttf</filename>
+			<size>23</size>
+		</font>
+		<font>
+			<name>font_xlarge</name>
+			<filename>fonts/NotoSans-Regular.ttf</filename>
+			<size>28</size>
+		</font>
+		<font>
+			<name>font_title</name>
+			<filename>fonts/Roboto-Thin.ttf</filename>
+			<size>36</size>
+		</font>
+		<font>
+			<name>font_display</name>
+			<filename>fonts/Roboto-Thin.ttf</filename>
+			<size>68</size>
+		</font>
+		<font>
+			<name>font_clock</name>
+			<filename>fonts/Roboto-Thin.ttf</filename>
+			<size>32</size>
+		</font>
+		<font>
+			<name>font_mono</name>
+			<filename>fonts/NotoMono-Regular.ttf</filename>
+			<size>16</size>
+		</font>
+	</fontset>
+</fonts>

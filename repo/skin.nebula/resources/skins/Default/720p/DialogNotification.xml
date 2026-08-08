@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>401</defaultcontrol>
+	<controls>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>820</width>
+			<height>130</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="EE0A1020">special://skin/media/panel_dark.png</texture>
+				<border>12</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="image" id="400">
+				<left>24</left>
+				<top>24</top>
+				<width>64</width>
+				<height>64</height>
+				<texture>special://skin/media/logo.png</texture>
+			</control>
+			<control type="fadelabel" id="401">
+				<left>110</left>
+				<top>18</top>
+				<width>680</width>
+				<height>36</height>
+				<font>font_large</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="fadelabel" id="402">
+				<left>110</left>
+				<top>56</top>
+				<width>680</width>
+				<height>60</height>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+			</control>
+		</control>
+	</controls>
+</window>
