@@ -97,17 +97,17 @@ THEME6         = '[COLOR '+COLOR3+'][B]%s[/B][/COLOR]'
 # Example:  ICONMAINT     = os.path.join(ART, 'mainticon.png')
 #           ICONSETTINGS  = 'http://aftermathwizard.net/repo/wizard/settings.png'
 # Leave as http:// for default icon
-ICONBUILDS     = os.path.join(ART, 'icocat.png')
-ICONMAINT      = os.path.join(ART, 'icocat.png')
-ICONAPK        = os.path.join(ART, 'icocat.png')
-ICONADDONS     = os.path.join(ART, 'icocat.png')
-ICONYOUTUBE    = os.path.join(ART, 'icocat.png')
-ICONSAVE       = os.path.join(ART, 'icocat.png')
-ICONTRAKT      = os.path.join(ART, 'icocat.png')
-ICONREAL       = os.path.join(ART, 'icocat.png')
-ICONLOGIN      = os.path.join(ART, 'icocat.png')
-ICONCONTACT    = os.path.join(ART, 'icocat.png')
-ICONSETTINGS   = os.path.join(ART, 'icocat.png')
+ICONBUILDS     = 'http://i.imgur.com/E7oBc7x.png'
+ICONMAINT      = 'http://i.imgur.com/E7oBc7x.png'
+ICONAPK        = 'http://i.imgur.com/E7oBc7x.png'
+ICONADDONS     = 'http://i.imgur.com/E7oBc7x.png'
+ICONYOUTUBE    = 'http://i.imgur.com/E7oBc7x.png'
+ICONSAVE       = 'http://i.imgur.com/E7oBc7x.png'
+ICONTRAKT      = 'http://i.imgur.com/E7oBc7x.png'
+ICONREAL       = 'http://i.imgur.com/E7oBc7x.png'
+ICONLOGIN      = 'http://i.imgur.com/E7oBc7x.png'
+ICONCONTACT    = 'http://i.imgur.com/E7oBc7x.png'
+ICONSETTINGS   = 'http://i.imgur.com/E7oBc7x.png'
 # Hide the ====== seperators 'Yes' or 'No'
 HIDESPACERS    = 'No'
 # Character used in seperator
@@ -129,7 +129,7 @@ CONTACTFANART  = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE     = 'yes'
 # Url to wizard version
-WIZARDFILE     = 'https://raw.githubusercontent.com/stix26/nebulabuilds/refs/heads/main/repo/zips/plugin.program.nebulawizard/plugin.program.nebulawizard-2.0.2.zip'
+WIZARDFILE     = 'https://raw.githubusercontent.com/stix26/nebulabuilds/refs/heads/main/repo/zips/plugin.program.nebulawizard/plugin.program.nebulawizard-2.0.1.zip'
 #########################################################
 
 #########################################################
