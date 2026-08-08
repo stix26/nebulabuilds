@@ -11,7 +11,7 @@ ADDONTITLE     = 'Nebula GUI Wizard'
 BUILDERNAME    = 'Nebula Builds'
 #########################Make sure to change the repo to yours!!!!
 EXCLUDES       = [ADDON_ID, 'roms', 'My_Builds', 'backupdir', 'script.module.kodi-six', 'script.module.six']
-BUILDFILE      = 'https://stix26.github.io/nebulabuilds/builds/builds.json'
+BUILDFILE      = 'https://stix26.github.io/nebulabuilds/builds/builds.txt'
 UPDATECHECK    = 0
 APKFILE        = 'https://'
 YOUTUBETITLE   = 'FTG Help Videos' 
