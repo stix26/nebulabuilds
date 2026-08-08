@@ -10,6 +10,10 @@
       "size": 115992,
       "sha256": "4afd96a9405582d64e1e6ff695fe05c1776ce043d65d5f1f3ecd7adde1a67913"
     },
+    "zips/plugin.program.nebulawizard/plugin.program.nebulawizard-1.0.2.zip": {
+      "size": 116350,
+      "sha256": "656f505cebb296a180a5425c9d53c4c4c10f4eb85b64edd68c65b4c1ee4667a0"
+    },
     "zips/skin.nebula/skin.nebula-1.0.0.zip": {
       "size": 1019664,
       "sha256": "144c91c66f38d6834bb4b94c49f8dddcb9e26d5f276bd3eccd431567cf5fba6b"
@@ -23,12 +27,12 @@
       "sha256": "ce54c157d37c3d6b991f8145908dde417b2fd89c8885328fadecc7d77e257be5"
     },
     "builds/Nebula-Cinema-1.0.0.zip": {
-      "size": 1497104,
-      "sha256": "d7091e5c65eb3839ccfd5745e9ed5a1c320925ff88cde9d8915a20552c153c09"
+      "size": 1497462,
+      "sha256": "ac24ac68449e0359b45c32a2ac024916453850b592c85903a06637625647b31d"
     },
     "builds/Nebula-Core-1.0.0.zip": {
-      "size": 1497109,
-      "sha256": "b3020a192f8a7810bbca95107818d850c44f1b13a30b8bc5914bd9f7263f6eb6"
+      "size": 1497467,
+      "sha256": "7cc3581793d1ea2ef814be3e96e8e142edae6a834246488724a005a8a2f819bf"
     }
   }
 }
