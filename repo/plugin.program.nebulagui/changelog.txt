@@ -1,2 +1,5 @@
 v1.0
 -Initial Release
+
+v1.3
+-Rebranded artwork: menu icons now use local anime-cat icon (no external imgur dependency), anime-cat splash/backgrounds/fanart/icon
