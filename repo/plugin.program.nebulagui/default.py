@@ -290,9 +290,9 @@ def buildMenu():
 		if not THIRD2NAME == '' and not THIRD2URL == '': third = True; addin.append('2')
 		if not THIRD3NAME == '' and not THIRD3URL == '': third = True; addin.append('3')
 	link  = bf.replace('\n','').replace('\r','').replace('\t','').replace('gui=""', 'gui="http://"').replace('theme=""', 'theme="http://"').replace('adult=""', 'adult="no"').replace('url2=""', 'url2="http://"').replace('url3=""', 'url3="http://"').replace('preview=""', 'preview="http://"')
-	match = re.compile('name="(.+?)".+?ersion="(.+?)".+?rl="(.+?)".+?rl2="(.+?)".+?rl3="(.+?)".+?ui="(.+?)".+?odi="(.+?)".+?heme="(.+?)".+?con="(.+?)".+?anart="(.+?)".+?dult="(.+?)".+?escription="(.+?)".+?review="(.+?)"').findall(link)
+	match = re.compile('name="(.+?)".+?ersion="(.+?)".+?rl="(.+?)".+?inor="(.+?)".+?ui="(.+?)".+?odi="(.+?)".+?heme="(.+?)".+?con="(.+?)".+?anart="(.+?)".+?review="(.+?)".+?dult="(.+?)".+?nfo="(.+?)".+?escription="(.+?)"').findall(link)
 	if total == 1 and third == False:
-		for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+		for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 			if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 			if not DEVELOPER == 'true' and wiz.strTest(name): continue
 			viewBuild(match[0][0])
@@ -307,7 +307,7 @@ def buildMenu():
 			addDir ("[B]%s[/B]" % name, 'viewthirdparty', item, icon=ICONBUILDS, themeit=THEME3)
 	if len(match) >= 1:
 		if SEPERATE == 'true':
-			for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+			for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 				if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 				if not DEVELOPER == 'true' and wiz.strTest(name): continue
 				menu = createMenu('install', '', name)
@@ -315,7 +315,7 @@ def buildMenu():
 		elif DEVELOPER == 'true':
 			if count15 > 0:
 				addFile('[B]Test builds[/B]', 'togglesetting',  'show15', themeit=THEME3)
-				for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+				for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 					if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 					if not DEVELOPER == 'true' and wiz.strTest(name): continue
 					kodiv = int(float(kodi))
@@ -326,7 +326,7 @@ def buildMenu():
 				state = '+' if SHOW18 == 'false' else '-'
 				addFile('[B]%s Leia Builds(%s)[/B]' % (state, count18), 'togglesetting',  'show18', themeit=THEME3)
 				if SHOW18 == 'true':
-					for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+					for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 						if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 						if not DEVELOPER == 'true' and wiz.strTest(name): continue
 						kodiv = int(float(kodi))
@@ -337,7 +337,7 @@ def buildMenu():
 				state = '+' if SHOW17 == 'false' else '-'
 				addFile('[B]%s Krypton Builds(%s)[/B]' % (state, count17), 'togglesetting',  'show17', themeit=THEME3)
 				if SHOW17 == 'true':
-					for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+					for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 						if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 						if not DEVELOPER == 'true' and wiz.strTest(name): continue
 						kodiv = int(float(kodi))
@@ -348,7 +348,7 @@ def buildMenu():
 				state = '+' if SHOW16 == 'false' else '-'
 				addFile('[B]%s Jarvis Builds(%s)[/B]' % (state, count16), 'togglesetting',  'show16', themeit=THEME3)
 				if SHOW16 == 'true':
-					for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+					for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 						if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 						if not DEVELOPER == 'true' and wiz.strTest(name): continue
 						kodiv = int(float(kodi))
@@ -360,7 +360,7 @@ def buildMenu():
 				state = '+' if SHOW18 == 'false' else '-'
 				addFile('[B]%s Leia Builds(%s)[/B]' % (state, count18), 'togglesetting',  'show18', themeit=THEME3)
 				if SHOW18 == 'true':
-					for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+					for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 						if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 						if not DEVELOPER == 'true' and wiz.strTest(name): continue
 						kodiv = int(float(kodi))
@@ -371,7 +371,7 @@ def buildMenu():
 				state = '+' if SHOW17 == 'false' else '-'
 				addFile('[B]%s Krypton Builds(%s)[/B]' % (state, count17), 'togglesetting',  'show17', themeit=THEME3)
 				if SHOW17 == 'true':
-					for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+					for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 						if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 						if not DEVELOPER == 'true' and wiz.strTest(name): continue
 						kodiv = int(float(kodi))
@@ -382,7 +382,7 @@ def buildMenu():
 				state = '+' if SHOW16 == 'false' else '-'
 				addFile('[B]%s Jarvis Builds(%s)[/B]' % (state, count16), 'togglesetting',  'show16', themeit=THEME3)
 				if SHOW16 == 'true':
-					for name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+					for name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 						if not SHOWADULT == 'true' and adult.lower() == 'yes': continue
 						if not DEVELOPER == 'true' and wiz.strTest(name): continue
 						kodiv = int(float(kodi))
@@ -409,8 +409,8 @@ def viewBuild(name):
 		addFile('%s was not found in the builds list.' % name, '', themeit=THEME3)
 		return
 	link  = bf.replace('\n','').replace('\r','').replace('\t','').replace('gui=""', 'gui="http://"').replace('theme=""', 'theme="http://"').replace('url2=""', 'url2="http://"').replace('url3=""', 'url3="http://"').replace('preview=""', 'preview="http://"').replace('"https://"', 'preview="http://"')
-	match = re.compile('name="%s".+?ersion="(.+?)".+?rl="(.+?)".+?rl2="(.+?)".+?rl3="(.+?)".+?ui="(.+?)".+?odi="(.+?)".+?heme="(.+?)".+?con="(.+?)".+?anart="(.+?)".+?dult="(.+?)".+?escription="(.+?)".+?review="(.+?)"' % name).findall(link)
-	for version, url, url2, url3, gui, kodi, themefile, icon, fanart, adult, description, preview in match:
+	match = re.compile('name="%s".+?ersion="(.+?)".+?rl="(.+?)".+?inor="(.+?)".+?ui="(.+?)".+?odi="(.+?)".+?heme="(.+?)".+?con="(.+?)".+?anart="(.+?)".+?review="(.+?)".+?dult="(.+?)".+?nfo="(.+?)".+?escription="(.+?)"' % name).findall(link)
+	for version, url, minor, gui, kodi, themefile, icon, fanart, preview, adult, info, description in match:
 		icon        = icon
 		fanart      = fanart
 		build       = '%s (v%s)' % (name, version)
@@ -2214,8 +2214,7 @@ def restoreextit(type):
 def buildInfo(name):
 	if wiz.workingURL(BUILDFILE) == True:
 		if wiz.checkBuild(name, 'url'):
-			name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview = wiz.checkBuild(name, 'all')
-			info = 'http://'
+			name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description = wiz.checkBuild(name, 'all')
 			adult = 'Yes' if adult.lower() == 'yes' else 'No'
 			extend = False
 			if not info == "http://":

@@ -475,22 +475,22 @@ def checkBuild(name, ret, burl=None):
 	except Exception as e:
 		xbmc.log('Buildfile not found. Add a valid buildfile or check your internet connection.' + str(e), xbmc.LOGINFO)
 		return
-	match = re.compile('name="%s".+?ersion="(.+?)".+?rl="(.+?)".+?rl2="(.+?)".+?rl3="(.+?)".+?ui="(.+?)".+?odi="(.+?)".+?heme="(.+?)".+?con="(.+?)".+?anart="(.+?)".+?dult="(.+?)".+?escription="(.+?)".+?review="(.+?)"' % name).findall(link)
+	match = re.compile('name="%s".+?ersion="(.+?)".+?rl="(.+?)".+?inor="(.+?)".+?ui="(.+?)".+?odi="(.+?)".+?heme="(.+?)".+?con="(.+?)".+?anart="(.+?)".+?review="(.+?)".+?dult="(.+?)".+?nfo="(.+?)".+?escription="(.+?)"' % name).findall(link)
 	if len(match) > 0:
-		for version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview in match:
+		for version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description in match:
 			if ret   == 'version':       return version
 			elif ret == 'url':           return url
-			elif ret == 'url2':          return url2
-			elif ret == 'url3':          return url3
+			elif ret == 'minor':         return minor
 			elif ret == 'gui':           return gui
 			elif ret == 'kodi':          return kodi
 			elif ret == 'theme':         return theme
 			elif ret == 'icon':          return icon
 			elif ret == 'fanart':        return fanart
-			elif ret == 'adult':         return adult
-			elif ret == 'description':   return description
 			elif ret == 'preview':       return preview
-			elif ret == 'all':           return name, version, url, url2, url3, gui, kodi, theme, icon, fanart, adult, description, preview
+			elif ret == 'adult':         return adult
+			elif ret == 'info':          return info
+			elif ret == 'description':   return description
+			elif ret == 'all':           return name, version, url, minor, gui, kodi, theme, icon, fanart, preview, adult, info, description
 	else: return False
 
 def checkAddon(name, ret):  
