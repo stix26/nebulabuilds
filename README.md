@@ -14,7 +14,7 @@
 <ul>
     <li>Open the Kodi File Manager</li>
     <li>Select "Add source"</li>
-    <li>The path for the source is <code>https://stix26.github.io/nebulabuilds</code></li>
+    <li>The path for the source is <code>https://stix26.github.io/nebulabuilds/</code></li>
 </ul>
 
 ### Instructions for installing the Nebula Wizard:
