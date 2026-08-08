@@ -1,1 +1,13 @@
-Welcome to Nebula Builds!
+1
+|||
+[B]Welcome to [COLOR crimson]Nebula Builds[/COLOR]![/B]
+==========================================
+Nebula Builds does not host or contain any media files.
+
+Thank you for using Nebula Builds. Install the build that is best for your device from the Build Menu. If you are installing for the first time, please wait and confirm when the wizard asks.
+
+Wizard Change Log:
+[B]1.2.1[/B]
+	 - Rebranded to Nebula Wizard.
+	 - Builds now served from the Nebula Builds repository.
+	 - Added the Nebula Core and Nebula Cinema builds.
