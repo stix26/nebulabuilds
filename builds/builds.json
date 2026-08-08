@@ -12,8 +12,8 @@
         "skin.nebula",
         "plugin.program.nebulawizard"
       ],
-      "sha256": "c30954b96098a43b46410fd245344fd95ef928cc2e77e147aa6779a680dc88a9",
-      "size": 1497130
+      "sha256": "d35238c7a3c152c35499fe8080a068128887b70998649ee025c25b8b44b912c7",
+      "size": 1497151
     },
     {
       "id": "cinema",
@@ -27,8 +27,8 @@
         "skin.nebula",
         "plugin.program.nebulawizard"
       ],
-      "sha256": "16d20ceb5411b72013488bdbf47e271b6ac63ac60454cc82237cec664c79f665",
-      "size": 1497125
+      "sha256": "fa2c2137ad750be663b2e5d7f760b941add3522c9c00eb1cc971a21e84d8ff1d",
+      "size": 1497146
     }
   ]
 }

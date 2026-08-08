@@ -18,27 +18,6 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.nebulabuilds" version="1.0.0" name="Nebula Builds Repository" provider-name="Nebula Builds">
-    <requires>
-        <import addon="xbmc.addon" version="20.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository">
-        <dir minversion="20.0.0">
-            <info compressed="false">https://stix26.github.io/nebulabuilds/addons.xml</info>
-            <checksum>https://stix26.github.io/nebulabuilds/addons.xml.md5</checksum>
-            <datadir zip="true">https://stix26.github.io/nebulabuilds/zips</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_gb">Nebula Builds add-on repository</summary>
-        <description lang="en_gb">Repository for the Nebula skin and Nebula Wizard. Point the URL in repository.nebulabuilds at your hosted copy of the hosted/repo folder.</description>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-    </extension>
-</addon>
 <addon id="skin.nebula" version="1.0.0" name="Nebula" provider-name="Nebula Builds">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
@@ -51,6 +30,27 @@
         <assets>
             <icon>resources/skins/Default/media/icon.png</icon>
             <fanart>resources/skins/Default/media/fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.nebulabuilds" version="1.0.1" name="Nebula Builds Repository" provider-name="Nebula Builds">
+    <requires>
+        <import addon="xbmc.addon" version="20.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository">
+        <dir minversion="20.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/stix26/nebulabuilds/main/hosted/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/stix26/nebulabuilds/main/hosted/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/stix26/nebulabuilds/main/hosted/repo/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_gb">Nebula Builds add-on repository</summary>
+        <description lang="en_gb">Repository for the Nebula skin and Nebula Wizard. Point the URL in repository.nebulabuilds at your hosted copy of the hosted/repo folder.</description>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
         </assets>
     </extension>
 </addon>
