@@ -1,0 +1,26 @@
+{
+  "generator": "tools/package.py",
+  "base_url": "https://stix26.github.io/nebulabuilds",
+  "files": {
+    "zips/plugin.program.nebulawizard-1.0.0.zip": {
+      "size": 116001,
+      "sha256": "9ca74092df9aee1789bf5c70018fbe669a705f6d1c00178ca25daa90a922b47e"
+    },
+    "zips/repository.nebulabuilds-1.0.0.zip": {
+      "size": 360127,
+      "sha256": "b55dfb18be5a64b4290e003afa5d6c340d87c73d6eec7e0f5aeaef56bf542eef"
+    },
+    "zips/skin.nebula-1.0.0.zip": {
+      "size": 1013068,
+      "sha256": "108665378c2728d2c1505e8fa362c8d7c78e245ffeeddd238d522b2379173fa9"
+    },
+    "builds/Nebula-Cinema-1.0.0.zip": {
+      "size": 1490487,
+      "sha256": "2a1ee4a4008a8f37d961fc67a04414375620e2d67cbc9087881596e8f4edb9f9"
+    },
+    "builds/Nebula-Core-1.0.0.zip": {
+      "size": 1490492,
+      "sha256": "49d5a7d01f4ee179383804784625b5744f9ce6bb7c0c62540bb4b300f16857fc"
+    }
+  }
+}

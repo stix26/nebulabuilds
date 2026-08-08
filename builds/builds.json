@@ -1,0 +1,34 @@
+{
+  "builds": [
+    {
+      "id": "core",
+      "name": "Nebula Core",
+      "file": "Nebula-Core-1.0.0.zip",
+      "version": "1.0.0",
+      "theme": "Midnight",
+      "description": "Nebula skin, wizard and repository. A clean starting point for Kodi 20-22.",
+      "addons": [
+        "repository.nebulabuilds",
+        "skin.nebula",
+        "plugin.program.nebulawizard"
+      ],
+      "sha256": "49d5a7d01f4ee179383804784625b5744f9ce6bb7c0c62540bb4b300f16857fc",
+      "size": 1490492
+    },
+    {
+      "id": "cinema",
+      "name": "Nebula Cinema",
+      "file": "Nebula-Cinema-1.0.0.zip",
+      "version": "1.0.0",
+      "theme": "Crimson",
+      "description": "Nebula Core plus the Crimson theme and movie-centric layout defaults.",
+      "addons": [
+        "repository.nebulabuilds",
+        "skin.nebula",
+        "plugin.program.nebulawizard"
+      ],
+      "sha256": "2a1ee4a4008a8f37d961fc67a04414375620e2d67cbc9087881596e8f4edb9f9",
+      "size": 1490487
+    }
+  ]
+}
