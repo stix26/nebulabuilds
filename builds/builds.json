@@ -3,18 +3,18 @@
     {
       "name": "Nebula Core",
       "version": "1.0.1",
-      "url": "https://nebulabuilds.vercel.app/builds/Nebula-Core-1.0.1.zip",
-      "icon": "https://nebulabuilds.vercel.app/builds/icon.png",
-      "fanart": "https://nebulabuilds.vercel.app/builds/fanart.jpg",
+      "url": "https://stix26.github.io/nebulabuilds/builds/Nebula-Core-1.0.1.zip",
+      "icon": "https://stix26.github.io/nebulabuilds/builds/icon.png",
+      "fanart": "https://stix26.github.io/nebulabuilds/builds/fanart.jpg",
       "description": "Nebula skin, wizard and repository. A clean starting point for Kodi 20-22.",
       "theme": "Midnight"
     },
     {
       "name": "Nebula Cinema",
       "version": "1.0.1",
-      "url": "https://nebulabuilds.vercel.app/builds/Nebula-Cinema-1.0.1.zip",
-      "icon": "https://nebulabuilds.vercel.app/builds/icon.png",
-      "fanart": "https://nebulabuilds.vercel.app/builds/fanart.jpg",
+      "url": "https://stix26.github.io/nebulabuilds/builds/Nebula-Cinema-1.0.1.zip",
+      "icon": "https://stix26.github.io/nebulabuilds/builds/icon.png",
+      "fanart": "https://stix26.github.io/nebulabuilds/builds/fanart.jpg",
       "description": "Nebula Core plus the Crimson theme and movie-centric layout defaults.",
       "theme": "Crimson"
     }
