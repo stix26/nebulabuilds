@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture colordiffuse="FF03050E">special://skin/media/solid.png</texture>
+		</control>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture>special://skin/media/vignette.png</texture>
+		</control>
+		<control type="label">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>500</width>
+			<height>40</height>
+			<label>$INFO[MusicPlayer.Title]</label>
+			<font>font_xlarge</font>
+			<textcolor>text_primary</textcolor>
+			<align>center</align>
+		</control>
+		<control type="label">
+			<centerleft>50%</centerleft>
+			<top>50%</top>
+			<width>500</width>
+			<height>30</height>
+			<label>$INFO[MusicPlayer.Artist] - $INFO[MusicPlayer.Album]</label>
+			<font>font_medium</font>
+			<textcolor>text_secondary</textcolor>
+			<align>center</align>
+		</control>
+		<control type="label">
+			<right>36</right>
+			<bottom>26</bottom>
+			<width>500</width>
+			<height>30</height>
+			<label>NEBULA</label>
+			<font>font_small</font>
+			<textcolor>text_secondary</textcolor>
+			<align>right</align>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorset>
+	<name>Emerald</name>
+	<colors>
+		<color name="accent">FF37B24D</color>
+		<color name="accent2">FF82C91E</color>
+		<color name="accent_dim">8C37B24D</color>
+		<color name="text_primary">FFFFFFFF</color>
+		<color name="text_secondary">FF9CC9A4</color>
+		<color name="text_header">FFBFE8C5</color>
+		<color name="panel_fill">99102A16</color>
+		<color name="panel_fill_dark">CC071405</color>
+		<color name="panel_border">6637B24D</color>
+		<color name="highlight">80FFFFFF</color>
+		<color name="focus_bar">FFBCE8B8</color>
+		<color name="focus_glow">FF37B24D</color>
+		<color name="button_focus">FF37B24D</color>
+		<color name="button_nofocus">FF8A94AD</color>
+		<color name="header_fill">CC071405</color>
+		<color name="scrollbar">CC37B24D</color>
+		<color name="scrollbarbg">22000000</color>
+	</colors>
+</colorset>

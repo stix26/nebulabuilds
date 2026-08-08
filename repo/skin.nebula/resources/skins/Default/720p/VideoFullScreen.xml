@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture colordiffuse="FF000000">special://skin/media/solid.png</texture>
+		</control>
+		<control type="label">
+			<right>36</right>
+			<bottom>26</bottom>
+			<width>500</width>
+			<height>30</height>
+			<label>NEBULA</label>
+			<font>font_small</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<align>right</align>
+			<aligny>center</aligny>
+		</control>
+	</controls>
+</window>

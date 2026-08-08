@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+	<colors>
+		<color name="accent">FF5B8CFF</color>
+		<color name="accent2">FF9A6BFF</color>
+		<color name="accent_dim">8C5B8CFF</color>
+		<color name="text_primary">FFFFFFFF</color>
+		<color name="text_secondary">FF93A4C8</color>
+		<color name="text_header">FFBFCFFF</color>
+		<color name="panel_fill">99253046</color>
+		<color name="panel_fill_dark">CC0A1020</color>
+		<color name="panel_border">664A6FE3</color>
+		<color name="highlight">80FFFFFF</color>
+		<color name="focus_bar">FFA0B8FF</color>
+		<color name="focus_glow">FF5B8CFF</color>
+		<color name="button_focus">FF5B8CFF</color>
+		<color name="button_nofocus">FF8A94AD</color>
+		<color name="header_fill">CC0A1020</color>
+		<color name="scrollbar">CC5B8CFF</color>
+		<color name="scrollbarbg">22000000</color>
+		<color name="shadow">DD000000</color>
+		<color name="black">FF000000</color>
+		<color name="white">FFFFFFFF</color>
+	</colors>
+	<skinsettings>
+		<setting type="string" default="true" id="theme">Midnight</setting>
+		<setting type="string" id="theme">Midnight</setting>
+		<setting type="image" id="background">special://skin/media/fanart.png</setting>
+	</skinsettings>
+</defaults>

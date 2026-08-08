@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>50</defaultcontrol>
+	<controls>
+		<include>FullscreenWallpaper</include>
+		<include content="HeaderBar">
+			<param name="title" value="Settings" />
+		</include>
+		<include>BackHint</include>
+
+		<control type="group">
+			<left>60</left>
+			<top>120</top>
+			<width>470</width>
+			<height>500</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="panel_fill_dark">special://skin/media/panel_dark.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="list" id="50">
+				<left>12</left>
+				<top>16</top>
+				<width>446</width>
+				<height>470</height>
+				<onup>50</onup>
+				<ondown>50</ondown>
+				<itemlayout>
+					<control type="label">
+						<left>24</left>
+						<top>0</top>
+						<width>410</width>
+						<height>46</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_large</font>
+						<textcolor>text_secondary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</itemlayout>
+				<focusedlayout>
+					<include>FocusHighlight</include>
+					<control type="label">
+						<left>40</left>
+						<top>0</top>
+						<width>394</width>
+						<height>46</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_large</font>
+						<textcolor>text_primary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</focusedlayout>
+				<item>
+					<label>Interface</label>
+					<onclick>ActivateWindow(InterfaceSettings,return)</onclick>
+				</item>
+				<item>
+					<label>Player</label>
+					<onclick>ActivateWindow(PlayerSettings,return)</onclick>
+				</item>
+				<item>
+					<label>Media</label>
+					<onclick>ActivateWindow(MediaSettings,return)</onclick>
+				</item>
+				<item>
+					<label>Services</label>
+					<onclick>ActivateWindow(ServicesSettings,return)</onclick>
+				</item>
+				<item>
+					<label>System</label>
+					<onclick>ActivateWindow(SystemSettings,return)</onclick>
+				</item>
+				<item>
+					<label>Profiles</label>
+					<onclick>ActivateWindow(SettingsProfile,return)</onclick>
+				</item>
+				<item>
+					<label>File Manager</label>
+					<onclick>ActivateWindow(FileManager,return)</onclick>
+				</item>
+				<item>
+					<label>Add-ons</label>
+					<onclick>ActivateWindow(AddonBrowser,return)</onclick>
+				</item>
+				<item>
+					<label>System Info</label>
+					<onclick>ActivateWindow(SettingsSystemInfo,return)</onclick>
+				</item>
+				<item>
+					<label>Event Log</label>
+					<onclick>ActivateWindow(EventLog,return)</onclick>
+				</item>
+			</control>
+		</control>
+
+		<control type="group">
+			<left>600</left>
+			<top>120</top>
+			<width>620</width>
+			<height>500</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="panel_fill">special://skin/media/panel.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>40</left>
+				<top>40</top>
+				<width>110</width>
+				<height>110</height>
+				<texture>special://skin/media/logo.png</texture>
+			</control>
+			<control type="label">
+				<left>170</left>
+				<top>52</top>
+				<width>400</width>
+				<height>44</height>
+				<label>Nebula Builds</label>
+				<font>font_title</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="label">
+				<left>172</left>
+				<top>104</top>
+				<width>400</width>
+				<height>30</height>
+				<label>Active theme: $INFO[Skin.String(theme)]</label>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+			</control>
+			<control type="label">
+				<left>40</left>
+				<top>180</top>
+				<width>540</width>
+				<height>120</height>
+				<label>Nebula is a minimal cinematic skin. Adjust the accent theme, then open the wizard from Home to install a build.</label>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+				<autoscroll time="6000" delay="1500" repeat="2000" always="true">true</autoscroll>
+			</control>
+			<control type="button" id="400">
+				<left>40</left>
+				<top>320</top>
+				<width>240</width>
+				<height>48</height>
+				<label>Nebula Themes</label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				<onclick>ActivateWindow(15000)</onclick>
+			</control>
+			<control type="button" id="401">
+				<left>300</left>
+				<top>320</top>
+				<width>240</width>
+				<height>48</height>
+				<label>Power Menu</label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+				<onclick>ActivateWindow(15001)</onclick>
+			</control>
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<controls>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>900</width>
+			<height>560</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="panel_fill_dark">special://skin/media/panel_dark.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="label" id="1">
+				<left>30</left>
+				<top>18</top>
+				<width>840</width>
+				<height>34</height>
+				<label></label>
+				<font>font_title</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="textbox" id="5">
+				<left>30</left>
+				<top>66</top>
+				<right>30</right>
+				<bottom>40</bottom>
+				<font>font_medium</font>
+				<textcolor>text_secondary</textcolor>
+			</control>
+		</control>
+	</controls>
+</window>

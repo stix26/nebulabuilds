@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>50</defaultcontrol>
+	<controls>
+		<include>FullscreenWallpaper</include>
+		<include content="HeaderBar">
+			<param name="title" value="Favourites" />
+		</include>
+		<include>BackHint</include>
+
+		<control type="list" id="50">
+			<description>thumbnail shelf view</description>
+			<left>70</left>
+			<top>150</top>
+			<width>1140</width>
+			<height>200</height>
+			<orientation>horizontal</orientation>
+			<itemwidth>132</itemwidth>
+			<movement>10</movement>
+			<ondown>51</ondown>
+			<onup>51</onup>
+			<onleft>50</onleft>
+			<onright>50</onright>
+			<itemlayout>
+				<include content="ItemLayoutPanel">
+					<param name="w" value="132" />
+					<param name="ph" value="132" />
+				</include>
+			</itemlayout>
+			<focusedlayout>
+				<include content="ItemLayoutPanelFocused">
+					<param name="w" value="132" />
+					<param name="ph" value="132" />
+				</include>
+			</focusedlayout>
+		</control>
+
+		<control type="list" id="51">
+			<description>list view</description>
+			<left>70</left>
+			<top>120</top>
+			<width>1140</width>
+			<height>490</height>
+			<pagecontrol>60</pagecontrol>
+			<onup>51</onup>
+			<ondown>51</ondown>
+			<onleft>51</onleft>
+			<onright>60</onright>
+			<itemlayout>
+				<include>ItemLayoutList</include>
+			</itemlayout>
+			<focusedlayout>
+				<include>ItemLayoutListFocused</include>
+			</focusedlayout>
+		</control>
+
+		<include>ContentScrollbar</include>
+	</controls>
+</window>

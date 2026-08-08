@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="skin.nebula" version="1.0.1" name="Nebula" provider-name="Nebula Builds">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin" gui-artwork-dir="media" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_gb">Nebula - a minimal cinematic skin</summary>
+        <description lang="en_gb">A dark, focused skin with six color themes (Midnight, Crimson, Ocean, Ember, Emerald, Violet) for Kodi 20-22. Pairs with the Nebula Builds wizard for one-tap builds and rebuilds.</description>
+        <assets>
+            <icon>resources/skins/Default/media/icon.png</icon>
+            <fanart>resources/skins/Default/media/fanart.png</fanart>
+        </assets>
+    </extension>
+</addon>

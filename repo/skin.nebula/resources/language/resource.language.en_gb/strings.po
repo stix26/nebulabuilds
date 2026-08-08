@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nebula skin\n"
+"Report-Msgid-Bugs-To: https://github.com/anomalyco/nebulabuilds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "skin.nebula"
+msgid "Nebula"
+msgstr "Nebula"
+
+msgctxt "skin.nebula"
+msgid "Nebula Themes"
+msgstr "Nebula Themes"
+
+msgctxt "skin.nebula"
+msgid "Nebula Power"
+msgstr "Nebula Power"
+
+msgctxt "skin.nebula"
+msgid "Nebula Builds"
+msgstr "Nebula Builds"
+
+msgctxt "skin.nebula"
+msgid "Run Nebula Wizard"
+msgstr "Run Nebula Wizard"

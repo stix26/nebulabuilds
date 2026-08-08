@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">3</defaultcontrol>
+	<controls>
+		<control type="image">
+			<left>0</left>
+			<top>0</top>
+			<width>1280</width>
+			<height>720</height>
+			<texture colordiffuse="DD05070F">special://skin/media/solid.png</texture>
+		</control>
+		<control type="group">
+			<centerleft>50%</centerleft>
+			<centertop>50%</centertop>
+			<width>820</width>
+			<height>560</height>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<bottom>0</bottom>
+				<texture colordiffuse="panel_fill_dark">special://skin/media/panel_dark.png</texture>
+				<border>14</border>
+			</control>
+			<control type="image">
+				<left>0</left>
+				<top>0</top>
+				<right>0</right>
+				<height>3</height>
+				<texture colordiffuse="accent">special://skin/media/solid.png</texture>
+			</control>
+			<control type="label" id="1">
+				<left>30</left>
+				<top>16</top>
+				<width>760</width>
+				<height>36</height>
+				<label></label>
+				<font>font_title</font>
+				<textcolor>text_primary</textcolor>
+			</control>
+			<control type="label" id="2">
+				<right>30</right>
+				<top>18</top>
+				<width>300</width>
+				<height>30</height>
+				<label>$INFO[Control.GetLabel(1), / ]$INFO[Container(3).NumItems]</label>
+				<font>font_small</font>
+				<textcolor>text_secondary</textcolor>
+				<align>right</align>
+			</control>
+			<control type="list" id="3">
+				<left>20</left>
+				<top>66</top>
+				<width>780</width>
+				<height>420</height>
+				<pagecontrol>60</pagecontrol>
+				<onleft>3</onleft>
+				<onright>3</onright>
+				<onup>3</onup>
+				<ondown>3</ondown>
+				<itemlayout>
+					<control type="label">
+						<left>24</left>
+						<top>0</top>
+						<width>740</width>
+						<height>54</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_medium</font>
+						<textcolor>text_secondary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</itemlayout>
+				<focusedlayout>
+					<control type="image">
+						<left>0</left>
+						<top>3</top>
+						<right>10</right>
+						<bottom>3</bottom>
+						<texture colordiffuse="accent_dim">special://skin/media/focus.png</texture>
+					</control>
+					<control type="label">
+						<left>32</left>
+						<top>0</top>
+						<width>732</width>
+						<height>54</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_medium</font>
+						<textcolor>text_primary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="list" id="6">
+				<left>20</left>
+				<top>66</top>
+				<width>780</width>
+				<height>420</height>
+				<visible>false</visible>
+				<itemlayout>
+					<control type="label">
+						<left>24</left>
+						<top>0</top>
+						<width>740</width>
+						<height>54</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_medium</font>
+						<textcolor>text_secondary</textcolor>
+						<aligny>center</aligny>
+					</control>
+					<control type="label">
+						<left>24</left>
+						<top>26</top>
+						<width>740</width>
+						<height>26</height>
+						<label>$INFO[ListItem.Plot]</label>
+						<font>font_small</font>
+						<textcolor>text_secondary</textcolor>
+					</control>
+				</itemlayout>
+				<focusedlayout>
+					<control type="label">
+						<left>32</left>
+						<top>0</top>
+						<width>732</width>
+						<height>54</height>
+						<label>$INFO[ListItem.Label]</label>
+						<font>font_medium</font>
+						<textcolor>text_primary</textcolor>
+						<aligny>center</aligny>
+					</control>
+				</focusedlayout>
+			</control>
+			<control type="button" id="5">
+				<left>20</left>
+				<bottom>18</bottom>
+				<width>200</width>
+				<height>46</height>
+				<label></label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="7">
+				<right>20</right>
+				<bottom>18</bottom>
+				<width>200</width>
+				<height>46</height>
+				<label>$LOCALIZE[222]</label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+			<control type="button" id="8">
+				<right>232</right>
+				<bottom>18</bottom>
+				<width>200</width>
+				<height>46</height>
+				<label></label>
+				<font>font_medium</font>
+				<textcolor>text_primary</textcolor>
+				<texturefocus colordiffuse="accent">special://skin/media/button_focus.png</texturefocus>
+				<texturenofocus>special://skin/media/button_nofocus.png</texturenofocus>
+			</control>
+		</control>
+	</controls>
+</window>

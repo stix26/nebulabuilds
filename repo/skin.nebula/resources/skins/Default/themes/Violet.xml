@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorset>
+	<name>Violet</name>
+	<colors>
+		<color name="accent">FFB197FC</color>
+		<color name="accent2">FFDA77F2</color>
+		<color name="accent_dim">8CB197FC</color>
+		<color name="text_primary">FFFFFFFF</color>
+		<color name="text_secondary">FFC3B7E0</color>
+		<color name="text_header">FFE0D6FF</color>
+		<color name="panel_fill">99241838</color>
+		<color name="panel_fill_dark">CC100B20</color>
+		<color name="panel_border">66B197FC</color>
+		<color name="highlight">80FFFFFF</color>
+		<color name="focus_bar">FFE0D0FF</color>
+		<color name="focus_glow">FFB197FC</color>
+		<color name="button_focus">FFB197FC</color>
+		<color name="button_nofocus">FF8A94AD</color>
+		<color name="header_fill">CC100B20</color>
+		<color name="scrollbar">CCB197FC</color>
+		<color name="scrollbarbg">22000000</color>
+	</colors>
+</colorset>
