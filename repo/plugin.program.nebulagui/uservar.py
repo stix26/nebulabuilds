@@ -129,7 +129,7 @@ CONTACTFANART  = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE     = 'yes'
 # Url to wizard version
-WIZARDFILE     = 'https://raw.githubusercontent.com/stix26/nebulabuilds/refs/heads/main/repo/zips/plugin.program.nebulagui/plugin.program.nebulagui-1.0.zip'
+WIZARDFILE     = 'https://raw.githubusercontent.com/stix26/nebulabuilds/refs/heads/main/repo/zips/plugin.program.nebulagui/plugin.program.nebulagui-1.3.zip'
 #########################################################
 
 #########################################################

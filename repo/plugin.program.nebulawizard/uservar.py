@@ -129,7 +129,7 @@ CONTACTFANART  = 'http://'
 # Enable Auto Update 'Yes' or 'No'
 AUTOUPDATE     = 'yes'
 # Url to wizard version
-WIZARDFILE     = 'https://raw.githubusercontent.com/stix26/nebulabuilds/refs/heads/main/repo/zips/plugin.program.nebulawizard/plugin.program.nebulawizard-2.0.1.zip'
+WIZARDFILE     = 'https://raw.githubusercontent.com/stix26/nebulabuilds/refs/heads/main/repo/zips/plugin.program.nebulawizard/plugin.program.nebulawizard-2.0.2.zip'
 #########################################################
 
 #########################################################

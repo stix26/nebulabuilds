@@ -7,7 +7,7 @@
 			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
-			<texture background="true">$INFO[Skin.String(background)]</texture>
+			<texture background="true">special://skin/media/AnimeCats/</texture>
 		</control>
 		<control type="image">
 			<left>0</left>

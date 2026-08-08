@@ -1,0 +1,5 @@
+v1.0.1
+-Home background is now a slideshow of anime-cat wallpapers (resources/skins/Default/media/AnimeCats/).
+
+v1.0.0
+-Initial release: dark focused skin with six color themes for Kodi 20-22.

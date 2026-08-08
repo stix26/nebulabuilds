@@ -1,2 +1,6 @@
+v1.3
+-Synced missing wizard artwork from the Lady Guin build wizard (bgg2, panel art, menu focus art, splash).
+-Fixed wizard auto-update URL.
+
 v1.0
 -Initial Release
